@@ -1,0 +1,12 @@
+QS(A,st,end)
+int ip, lp = st, rp = end;
+while(lp != rp != ip) do;
+while(rp > ip) 
+if A[rp] < A[ip] then swap ;
+ip = rp;  return 0; 
+else rp --;
+
+while(lp<ip){
+return }
+
+QS(A, st, lp -1 ) + lp + QS(A, lp +1, end)
