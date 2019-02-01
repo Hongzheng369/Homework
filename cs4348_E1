@@ -1,0 +1,7 @@
+Add a system call to xv6 
+In this exercise, you will write a new system call getreadcount() for xv6 OS. The return
+type and parameters are:
+int getreadcount(void)
+The call returns the total number of times the read() system call has been invoked
+since the time the kernel was booted. Note that the kernel does not keep a counter. You
+have to add it
